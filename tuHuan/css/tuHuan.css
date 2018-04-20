@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 12px;
+}
+li {
+	list-style: none;
+	float:left;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+.floatL {
+	float:left;
+}
+.floatR {
+	float: right;
+}
+/*header*/
+/*nav*/
+.navT {
+	padding: 25px 0;
+}
+.navT li {
+	padding:5px 20px;
+}
+.navT .down a,.navT .about a {
+	color: #3bbe7a;
+}
+.navT .about {
+	position: relative;
+}
+/*小线条*/
+.navT .about span {
+	position: absolute;
+	bottom: -5px;
+	left: 44px;
+	font-size: 2em;
+	color: #3bbe7a;
+}
+/*小线条*/
+
+/*下载*/
+.navT .down {
+	border: 1px solid #3bbe7a;
+}
+/*下载*/
+/*header完*/
+
+/*banner*/
+.banner {
+	background: url(../images/tuhuan/banner.jpg) no-repeat;
+	width: 100%;
+	height: 680px;
+	background-size: 100% 100%;
+}
+/*banner*/
+
+/*intro*/
+.intro,.init,.server,.hope {
+	text-align: center;
+}
+.introContent p{
+	margin: 5px 0;
+}
+.titleC {
+	padding: 60px 0 20px 0;
+}
+.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.line {
+	width: 25px;
+	border-top: 1px solid #3bbe7a;
+	margin: 10px auto;
+}
+/*introUl*/
+.introUl {
+	overflow: hidden;
+	margin: 60px 0;
+}
+.introUl li {
+	width: 300px;
+	background: #60c992;
+	float: left;
+	padding: 40px;
+	margin-right: 33px;
+}
+.introUl p {
+	color: #fff;
+}
+.introUl .ulTitle {
+	font-size: 14px;
+	margin: 10px;
+}
+.introUl li:last-child {
+	margin-right: 0;
+}
+/*intro*/
+
+/*init*/
+.initPeople {
+	overflow: hidden;
+	padding: 60px;
+	background: #eeefe9;
+	margin: 60px 0;
+}
+.initPeople ul {
+	width: 88%;
+	margin: 0 auto;
+}
+.initPeople li {
+	background: #fff;
+}
+.initPeople p {
+	margin:10px 0;
+	color: #666;
+}
+.initPeople .initTitle {
+	color: #333;
+	font-size: 16px;
+}
+.initPeople li:first-child {
+	margin-right: 50px;
+}
+/*init*/
+
+/*server*/
+.server {
+	overflow: hidden;
+}
+.serverContent div {
+	float: left;
+}
+.serverText {
+	width: 240px;
+	/*height: 259px;*/
+	background: #57c68c;
+	padding: 103px 80px;
+}
+.serverC img {
+	margin-bottom: 30px;
+}
+.serverTitle {
+	margin: 20px 0;
+	color: #fff;
+	font-size: 16px;
+}
+/*server*/
+
+/*hope*/
+.hopeContent {
+	background: url(../images/tuhuan/hope.png) no-repeat;
+	height: 420px;
+	background-size: 100% 100%;
+	margin-top:60px;
+}
+/*hope*/
+
+/*footer*/
+footer {
+	background: #333;
+	overflow: hidden;
+	padding: 30px 0;
+}
+.footerNav ul {
+	overflow: hidden;
+}
+.footerNav a ,.footerNav span {
+	color: #999;
+}
+.footerNav span {
+	margin: 0 10px;
+}
+footer p {
+	color: #666;
+	margin-top: 10px;
+}
