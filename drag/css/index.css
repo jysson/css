@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+	background: rgb(66,90,125);
+}
+.wrap {
+	width: 780px;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	color: #fff;
+	font-size: 32px;
+	line-height: 200px;
+}
+.content {
+	position: relative;
+}
+.content span {
+	position: absolute;
+	bottom: 10px;
+	color: #fff;
+}
+.contImg,.contImg2{
+	height: 438px;
+}
+.contImg {
+	width: 390px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 3;
+}
+.contImg img {
+	width: 780px;
+}
+.contImg span {
+	left: 20px;
+}
+.contImg2 {
+	width: 780px;
+	background: url(../images/img-original.jpg);
+	background-size: 100% 100%;
+}
+.contImg2 span {
+	right: 20px;
+}
+.moveBtn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: rgb(229,125,124);
+	margin-left: -25px;
+	margin-top: -25px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 4;
+}
+.moveBtn i {
+	font-size: 18px;
+	color: #fff;
+}
+.moveBtn i:nth-of-type(2) {
+	margin-left: -10px;
+}
